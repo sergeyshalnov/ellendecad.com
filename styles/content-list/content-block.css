@@ -1,0 +1,14 @@
+.content-block {
+    position: relative;
+    width: 45%;
+
+    margin: 15pt auto 50pt;
+}
+
+@media screen and (max-width: 1200px) {
+    .content-block {
+        width: 85.5%;
+        margin: 0 auto 50pt;
+    }
+}
+

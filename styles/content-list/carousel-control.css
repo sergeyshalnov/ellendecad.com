@@ -1,0 +1,26 @@
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 50pt;
+  width: 50pt;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after {
+  content: '>';
+
+  font-size: 40pt;
+  font-family: 'Courier New', Courier, monospace;
+  color: red;
+}
+
+.carousel-control-next-icon:hover {
+    color: red;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+
+  font-size: 40pt;
+  font-family: 'Courier New', Courier, monospace;
+  color: red;
+}

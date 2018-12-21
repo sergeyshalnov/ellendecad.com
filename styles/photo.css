@@ -1,0 +1,21 @@
+@import "base/base.css";
+
+
+@media screen and (max-width: 1200px) {
+    .menu_fixed, .content {
+      width: 100%; 
+    }
+
+    .content_image {
+        padding: 0;
+    }
+
+    .content_centered {
+        width: 79%;
+        margin: 0 auto 50pt;
+    }
+    .content_text {
+        right: 0;
+        top:100%;
+    }
+  }

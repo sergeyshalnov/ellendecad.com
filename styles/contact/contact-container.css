@@ -1,0 +1,15 @@
+.contact-container {
+    position: absolute;
+    width: 100%;
+
+    right: 0;
+    bottom: 0;
+    text-align: right;
+}
+
+@media screen and (max-width: 1200px) {
+    .contact-container {
+        left: 0;
+        text-align: center;
+    }
+}

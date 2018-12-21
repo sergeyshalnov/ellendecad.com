@@ -1,0 +1,19 @@
+.menu-element {
+    display: inline;
+    font-size: 18pt;
+    transform: scale(1, 0.75);
+}
+
+a.menu-element:link {
+    text-decoration: none;
+    color: red;
+}
+
+a.menu-element:hover {
+    border-bottom: 4pt solid red;
+}
+
+a.menu-element:visited {
+    color: red;
+}
+

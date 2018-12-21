@@ -1,0 +1,26 @@
+@import "font.css";
+
+@import "../menu/menu-container.css";
+@import "../menu/menu-block.css";
+@import "../menu/menu-title.css";
+@import "../menu/menu-panel.css";
+@import "../menu/menu-element.css";
+@import "../menu/menu-unhover-element.css";
+
+@import "reset.css";
+
+
+body {
+    background-color: black;
+    background-size: 100%;
+}
+
+.page-background {
+    background: url("../../images/pages/back-mosh.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+*, ::after, ::before {
+    box-sizing: initial;
+}
+

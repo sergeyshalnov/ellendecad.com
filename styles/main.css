@@ -1,0 +1,26 @@
+@import "base/base.css";
+@import "base/font.css";
+
+/* rewriting page-background for main page */
+
+.page-background {
+    background: url("../images/pages/background.gif") no-repeat center center fixed;
+    background-size: cover;
+}
+
+/* rewriting menu-container for main page */
+
+.menu-container {
+    float: left;
+    width: 100%;
+    min-width: 350px;
+    margin-top: 20%;
+    text-align: center;
+}
+
+@media screen and (max-width: 1200px) {
+    .menu-container {
+        margin-top: 0;
+    }
+}
+

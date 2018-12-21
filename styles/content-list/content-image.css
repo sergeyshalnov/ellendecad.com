@@ -1,0 +1,14 @@
+.content-image {
+    display: block;
+    padding-top: 15pt;
+    padding-bottom: 25pt;
+    margin: auto;
+
+    width: 100%;
+}
+
+@media screen and (max-width: 1200px) {
+    .content_image {
+        padding: 0;
+    }
+}

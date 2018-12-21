@@ -1,0 +1,7 @@
+.content-feed {
+    display: block;
+    overflow: hidden;
+    width: auto;
+
+    min-width: 350px;
+}

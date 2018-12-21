@@ -1,0 +1,30 @@
+.contact-block {
+    display: inline-block;
+    width: auto;
+    
+    font-family: WebImpact;
+    font-size: 18pt;
+    transform: scale(1, 0.75);
+    
+    padding-right: 10pt;
+    text-align: left;
+
+    color: red;
+}
+
+@media screen and (max-width: 800px) {
+    .contact-block {
+        min-width: 200pt;
+
+        left: 10%;
+        right: 10%;
+    }
+}
+
+@media screen and (max-width: 340px) {
+    .contact-block {
+        font-size: 16pt;
+    }
+}
+
+

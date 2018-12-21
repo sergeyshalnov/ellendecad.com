@@ -1,0 +1,25 @@
+.content-text {
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute;
+
+    width: 160pt;
+    
+    right: -80pt;
+    top: 80%;
+    padding: 5pt;
+    
+    color: white;
+    
+    background-color: red;
+}
+
+@media screen and (max-width: 1200px) {
+    .content-text {
+        right: 0;
+        top: 100%;
+    }
+}
+
+a.content-text-link{
+    color: white;
+}
