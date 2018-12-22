@@ -1,0 +1,16 @@
+.contact-image-block {
+    position: relative;
+    width: 90%;
+
+    margin: 15pt auto 50pt;
+    
+    background-image: url("../../images/pages/contacts.jpg");
+    background-size: cover;
+}
+
+@media screen and (max-width: 1200px) {
+    .contact-image-block {
+       display: none;
+    }
+}
+

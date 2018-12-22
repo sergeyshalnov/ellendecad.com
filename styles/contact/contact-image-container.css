@@ -1,0 +1,8 @@
+.contact-image-container {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    width: auto;
+
+    min-width: 350px;
+}
