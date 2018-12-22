@@ -20,6 +20,12 @@ body {
     background-size: cover;
 }
 
+@media all and (max-width: 767px) {
+    .page-background {
+        background: black;
+    }
+}
+
 *, ::after, ::before {
     box-sizing: initial;
 }

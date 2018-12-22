@@ -9,7 +9,7 @@
 a.menu-unhover-element {
     display: inline;
     font-size: 18pt;
-    transform: scale(1, 0.75);
+    transform: scale(1, 1.1);
 
     user-select: none;
 }

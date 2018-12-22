@@ -3,3 +3,7 @@
 @import "contact/contact-container.css";
 @import "contact/contact-block.css";
 @import "contact/contact-link.css";
+
+@import "contact/contact-image-container.css";
+@import "contact/contact-image-block.css";
+@import "contact/contact-image.css";
